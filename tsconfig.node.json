@@ -6,6 +6,17 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "target": "es6",
+    "module": "esnext",
+    "types": ["node", "react"]
+  },
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
@@ -22,4 +33,5 @@
     "noUncheckedSideEffectImports": true
   },
   "include": ["vite.config.ts"]
+  
 }
